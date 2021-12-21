@@ -1,3 +1,4 @@
+<script>
 <?php
           $movie_query = "SELECT * FROM movies;";
           $results = mysqli_query($conn, $movie_query);
@@ -12,3 +13,4 @@
             echo "};";
           }
  ?>
+</script>
